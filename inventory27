@@ -1,2 +1,2 @@
 [test]
-RHAAP2
+RHAAP2 ansible_host=192.168.1.142
