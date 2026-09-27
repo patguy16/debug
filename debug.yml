@@ -2,5 +2,6 @@
 - name: Do debug
   hosts: test
   tasks:
-    - ansible.builtin.debug:
+    - name: debug
+      ansible.builtin.debug:
         msg: "This is the server {{ ansible_hostname }}"
